@@ -1,0 +1,24 @@
+@media (max-width: 845px) {
+.container{display: flex; justify-content: space-between;}
+.nav .logo{display: inline-block;}
+.nav .menu{display: none;}
+.nav .menu2{display: inline-block; font-size: 55px;width: 50%;text-align: right;}
+.pop{font-size: 30px; text-align: left;}
+.pop ul li, .pop ul li a{display: block;}
+
+.pop{display: none; position: absolute; height: 100%; width: 50%; background: white; z-index: 1;}
+.pop ul li a {text-decoration: none; color: black;padding: 10px;}
+.pop ul li:hover, a:hover {background-color: black;}
+.pop ul li a:hover{color: aliceblue;}
+
+.banner {display: flex;align-items: center;flex-direction: column;} 
+.txt p{font-size: 18px;}
+.txt h1{font-size: 60px;line-height: 100%; text-transform: uppercase;}
+.banner .right_banner .circle{width: 300px; height: 300px; background: #333;margin: 30px auto 0;border-radius: 50%; }
+.banner .right_banner .circle div{position: relative;top: 80px; left: 40px; border: white 10px solid; border-radius: 100% 0 0 0;overflow: hidden; width: 200px; height: 200px;}
+.banner .right_banner .circle img{width: 200px;}
+.banner .dots2{display: inline-block; position: relative; top: -50px; left: -20px;}
+
+.body1 .java{display: flex; justify-content:center; flex-direction: column;}
+.body1 .course1{margin: 10px auto;}
+}

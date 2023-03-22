@@ -1,0 +1,15 @@
+@media (max-width:600px) {
+    .banner {display: flex;align-items: center;flex-direction: column;} 
+    .txt p{font-size: 14px;}
+    .txt h1{font-size: 42px;line-height: 100%; text-transform: uppercase;}
+    .banner .right_banner{width: 100%;}
+    .banner .right_banner .circle{width: 250px; height: 250px; background: #333;margin: 30px auto 0;border-radius: 50%; }
+    .banner .right_banner .circle div{position: relative;top: 60px; left: 30px; border: white 10px solid; border-radius: 100% 0 0 0;overflow: hidden; width: 150px; height: 150px;}
+    .banner .right_banner .circle img{width: 150px;}
+    .banner .dots2{display: inline-block; position: relative; top: -50px; left: 10px;}
+
+    .java1{display: flex; justify-content:center; margin: 10px 0; flex-direction: column;}
+    .catagories1{display: flex; justify-content:center; margin: auto; flex-direction: column;}
+    footer .contact{ display: flex; justify-content:center; margin: auto; flex-direction: column;}
+    footer .contact .data{width: 100%; margin: 20px auto; color: white;}
+}
